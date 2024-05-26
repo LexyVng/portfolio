@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 600 !important;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.fa-github {
+  color: black;
+}
