@@ -1,12 +1,48 @@
-h1 {
-  font-family: "Lora", serif;
-  font-weight: 600 !important;
+:root {
+  --main-font-family: "Open Sans", sans-serif;
+  --headings-font-family: "Lora", serif;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
+.hero {
+  padding: 160px 20px;
+  background: #ecf0f1;
 }
 
-.fa-github {
-  color: black;
+.hero h1 {
+  font-family: var(--headings-font-family);
+  font-size: 96px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-family: var(--main-font-family);
+  font-size: 36px;
+}
+
+.hero p:last-child {
+  color: #607274;
+}
+
+.name-intro {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.hero a {
+  font-family: var(--main-font-family);
+}
+
+.hero a.contact-button,
+.hero a.projects-button {
+  font-size: 18px;
+  padding: 15px 24px;
+}
+
+.hero a.contact-button {
+  background: #f1c40f;
+}
+
+.hero a.projects-button {
+  border: 2px solid #f1c40f;
+  background: #fff;
 }
