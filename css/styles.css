@@ -22,13 +22,11 @@ p {
   }
 
   h1,
-  p,
-  .name-intro {
+  p {
     font-weight: 600;
   }
 
-  p,
-  .name-intro {
+  p {
     font-size: 30px;
   }
 
@@ -63,7 +61,7 @@ p {
   color: var(--main-color);
 }
 
-.about-me-hero {
+.content-container {
   margin: 100px auto;
   max-width: 700px;
 
@@ -79,6 +77,10 @@ p {
     font-size: 18px;
     line-height: 30px;
     color: var(--main-color);
+  }
+
+  .work-intro {
+    font-size: 30px;
   }
 
   a {
@@ -117,17 +119,16 @@ p {
       font-size: 50px;
     }
 
-    p,
-    .name-intro {
+    p {
       font-size: 24px;
-    }
-
-    .gallery-paragraph {
-      font-size: 40px;
     }
   }
 
-  .about-me-hero {
+  .gallery-paragraph {
+    font-size: 40px;
+  }
+
+  .content-container {
     margin: 70px auto;
 
     h1 {
@@ -138,10 +139,14 @@ p {
     h1 {
       padding: 10px;
     }
+
+    .work-intro {
+      font-size: 24px;
+    }
   }
 
   .tldr,
-  .about-me-hero {
+  .content-container {
     width: 90%;
   }
 }
