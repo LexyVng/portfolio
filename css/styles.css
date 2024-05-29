@@ -10,6 +10,7 @@
 p {
   font-family: var(--main-font-family);
   color: var(--main-color);
+  font-size: 20px;
 }
 
 .hero {
@@ -38,21 +39,22 @@ p {
   .name-intro {
     margin-bottom: 0;
   }
+}
 
-  a.contact-button,
-  a.projects-button {
-    font-size: 18px;
-    padding: 15px 24px;
-  }
+a.main-button,
+a.secondary-button {
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  padding: 15px 24px;
+}
 
-  a.contact-button {
-    background: var(--accent-color);
-  }
+a.main-button {
+  background: var(--accent-color);
+}
 
-  a.projects-button {
-    border: 2px solid var(--accent-color);
-    background: #fff;
-  }
+a.secondary-button {
+  border: 2px solid var(--accent-color);
+  background: #fff;
 }
 
 .gallery-paragraph {
@@ -111,6 +113,19 @@ p {
   }
 }
 
+.container hr {
+  border-color: #d35400;
+}
+
+.container h2 {
+  font-family: var(--headings-font-family);
+  color: #d35400;
+}
+
+.container img {
+  width: 90%;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -135,18 +150,18 @@ p {
       font-size: 40px;
     }
 
-    p,
-    h1 {
-      padding: 10px;
-    }
-
     .work-intro {
       font-size: 24px;
     }
   }
 
   .tldr,
-  .content-container {
+  .content-container,
+  .container {
     width: 90%;
+  }
+
+  .container {
+    text-align: center;
   }
 }
