@@ -31,7 +31,7 @@ p {
   background: #ecf0f1;
 
   h1 {
-    font-size: 96px;
+    font-size: 80px;
   }
 
   h1,
@@ -69,7 +69,7 @@ a.secondary-button {
   background: #fff;
 }
 
-.gallery-paragraph {
+.section-title {
   font-family: var(--headings-font-family);
   font-size: 50px;
   color: var(--main-color);
@@ -129,11 +129,6 @@ a.secondary-button {
   border-color: #d35400;
 }
 
-.container h2 {
-  font-family: var(--headings-font-family);
-  color: #d35400;
-}
-
 .container img {
   width: 90%;
 }
@@ -173,6 +168,11 @@ nav li.active a {
   color: var(--secondary-color);
 }
 
+.enquiry-section {
+  background: #ecf0f1;
+  padding: 30px 80px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -182,11 +182,11 @@ nav li.active a {
     }
 
     p {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 
-  .gallery-paragraph {
+  .section-title {
     font-size: 40px;
   }
 
