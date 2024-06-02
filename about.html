@@ -25,26 +25,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Learn more about Alexia Veinoglou, her journey, skills and values that drive her work."
+    />
+    <title>About me | Alexia Veinoglou - Front-End Developer</title>
   </head>
   <body>
     <div class="container text-center">
       <nav>
-        <a href="/">
+        <a href="/" title="Homepage">
           <img src="/media/Alexia-logo.png" alt="" />
         </a>
         <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
           <li class="active">
-            <a href="/about.html">About</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/about.html" title="About Alexia">About</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/work.html" title="Alexia's experience">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Alexia">Contact</a>
           </li>
         </ul>
       </nav>
@@ -77,33 +81,46 @@
       <div class="d-flex justify-content-evenly">
         <div>
           <i class="fa-solid fa-laptop-code"></i>
-          <h5>Front-End Dev</h5>
+          <h3>Front-End Dev</h3>
         </div>
         <div>
           <i class="fa-solid fa-language"></i>
-          <h5>GR, EN, ES</h5>
+          <h3>GR, EN, ES</h3>
         </div>
         <div>
           <i class="fa-solid fa-book"></i>
-          <h5>Avid Reader</h5>
+          <h3>Avid Reader</h3>
         </div>
       </div>
     </div>
     <div class="enquiry-section text-center mt-5">
       <div>
         <h2 class="section-title">Questions?</h2>
-        <p>Feel free to get in touch!</p>
+        <p>Feel free to reach out!</p>
       </div>
       <div class="mt-2">
-        <a href="/contact.html" class="btn contact-button">Contact Me</a>
+        <a
+          href="/contact.html"
+          class="btn contact-button"
+          title="Contact Alexia"
+          >Contact Me</a
+        >
       </div>
     </div>
     <footer>
       <div class="social-links">
-        <a href="https://github.com/LexyVng" target="_blank">
+        <a
+          href="https://github.com/LexyVng"
+          target="_blank"
+          title="GitHub Account"
+        >
           <i class="fa-brands fa-github"></i>
         </a>
-        <a href="https://x.com/LexyCodes" target="_blank">
+        <a
+          href="https://x.com/LexyCodes"
+          target="_blank"
+          title="Twitter Account"
+        >
           <i class="fa-brands fa-x-twitter"></i>
         </a>
       </div>
@@ -115,7 +132,9 @@
       <p>
         Designed in InVision and coded in VS Code by Alexia Veinoglou. Built
         with HTML, Vanilla CSS and Bootstrap. <br />Icons by
-        <a href="https://fontawesome.com/">Font Awesome</a>.
+        <a href="https://fontawesome.com/" title="Font Awesome Website"
+          >Font Awesome</a
+        >.
       </p>
     </footer>
   </body>

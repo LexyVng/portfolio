@@ -106,6 +106,10 @@ div .fa-angle-down {
     line-height: 1.5;
   }
 
+  h2 {
+    font-size: 25px;
+  }
+
   p {
     font-size: 18px;
     line-height: 1.5;
@@ -140,7 +144,7 @@ div .fa-angle-down {
     font-size: 30px;
   }
 
-  h5 {
+  h3 {
     color: var(--main-color);
     font-size: 16px;
     font-family: var(--main-font-family);
