@@ -101,7 +101,7 @@ div .fa-angle-down {
   h1 {
     color: var(--main-color);
     font-family: var(--headings-font-family);
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 1.5;
   }
@@ -203,12 +203,6 @@ footer {
   text-align: center;
   padding: 30px 80px;
   background-color: var(--main-color);
-}
-
-.footer-contact-page {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 footer a {
